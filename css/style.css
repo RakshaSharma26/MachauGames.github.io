@@ -3,7 +3,6 @@
     padding: 0px;
     line-height: 1.42857143;
     font-family: 'Titillium Web', sans-serif;
-    letter-spacing: 1px;
 }
 
 body {
@@ -33,13 +32,17 @@ nav div form {
 
 nav div form input {
     font-size: 16px;
-    padding: 5px;
+    padding: 8px;
     font-weight: bold;
+    background: black;
+    border: 1.5px solid #00BFFF;
+    color: white;
+    text-transform: uppercase;
 }
 
 nav div form input:hover {
-    background: #6688aa;
-    color: #ddd;
+    background: #00BFFF;
+    color: white;
 }
 
 nav h1 {
@@ -68,6 +71,7 @@ nav h1 {
     margin-left: 30px;
     padding: 0 20px;
     line-height: 1.72857143;
+    letter-spacing: 2px;
 }
 
 img {
@@ -119,11 +123,23 @@ img {
     background-size: cover;
     height: 100vh;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
 }
 
-.second .GameName {
-    width: 100%;
-    height: 40vh;
+.second div {
+    width: 30%;
+    height: 100vh;
+    border: 2px solid yellow;
+    /* line-height: 40!important; */
+    letter-spacing: 4px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    padding: 18px;
 }
 
 .credits {
@@ -180,22 +196,19 @@ a:hover {
 }
 
 .download form input {
-    /* position: absolute; */
-    /* top: 47%;
-    left: 47%; */
     cursor: pointer;
     font-size: 20px;
-    padding: 12px;
-    border-radius: 22px;
+    padding: 10px;
+    border-radius: 12px;
     font-weight: bold;
     margin: 10px;
-    /* background-color: #888; */
-    /* background: transparent; */
-    /* background-blend-mode: darken; */
-    /* color: white; */
+    background-color: black;
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    border: 2px solid #00BFFF;
 }
 
 .download form input:hover {
-    background: #6688aa;
-    color: #ddd;
+    background: #00BFFF;
+    color: white;
 }
