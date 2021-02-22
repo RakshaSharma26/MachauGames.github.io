@@ -1,19 +1,19 @@
 * {
     margin: 0px;
     padding: 0px;
-    line-height: 1.42857143;
-    font-family: 'Titillium Web', sans-serif;
 }
 
 body {
     background-color: black;
     color: white;
+    line-height: 1.62857143;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 nav {
     background: black;
     height: 10vh;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -26,22 +26,25 @@ nav div {
     align-items: center;
 }
 
-nav div form {
+
+/* nav div form {
     margin-right: 5vh;
-}
+} */
 
 nav div form input {
-    font-size: 16px;
-    padding: 8px;
+    cursor: pointer;
+    font-size: 12px;
+    height: 10vh;
+    padding: 0 15px;
     font-weight: bold;
     background: black;
-    border: 1.5px solid #00BFFF;
-    color: white;
+    border: 1.5px solid rgb(228, 123, 84);
+    color: rgb(228, 123, 84);
     text-transform: uppercase;
 }
 
 nav div form input:hover {
-    background: #00BFFF;
+    background: rgb(228, 123, 84);
     color: white;
 }
 
@@ -61,17 +64,18 @@ nav h1 {
 }
 
 .first div {
-    width: 40%;
+    width: 30%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     font-size: 20px;
     margin-left: 30px;
     padding: 0 20px;
-    line-height: 1.72857143;
-    letter-spacing: 2px;
+    line-height: 1.62857143;
+    letter-spacing: 1.8px;
+    text-shadow: 2px 2px 4px orange;
 }
 
 img {
@@ -87,10 +91,11 @@ img {
 .card1,
 .card2,
 .card3 {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 50px 0;
 }
 
 .card1-div,
@@ -100,6 +105,7 @@ img {
     font-size: 18px;
     display: flex;
     flex-direction: column;
+    margin: 0 20px;
 }
 
 .card1 img,
@@ -125,8 +131,13 @@ img {
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
+    /* justify-content: flex-end;
+    align-items: center; */
+}
+
+.GameName {
+    margin: 30px 15px;
+    width: 140%;
 }
 
 .second div {
@@ -142,21 +153,66 @@ img {
     padding: 18px;
 }
 
-.credits {
-    margin: 15px;
+.credit-section {
+    background-image: url("../images/pawel-czerwinski-tMbQpdguDVQ-unsplash.jpg");
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    /* margin: 50px 0; */
+    color: white;
+    padding: 20px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.credit-section h1 {
+    /* margin: 20px; */
+    text-align: center;
+}
+
+.credits {
+    margin: 30px 15px;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
 }
 
 .credit div {
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 20px;
 }
 
 .credit {
+    line-height: 1.92857143!important;
     width: 50%;
     display: flex;
     flex-direction: column;
-    border: 1px solid violet;
+    /* border: 1px solid violet; */
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.2);
+    margin: 0 10px 0 0;
+    box-shadow: 0 4px 8px 0 #999;
+}
+
+.special-thanks {
+    background-image: url("../images/tom-morel-ktVazL5c7FM-unsplash.jpg");
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2.2857143!important;
+    padding: 30px;
 }
 
 a {
@@ -199,16 +255,85 @@ a:hover {
     cursor: pointer;
     font-size: 20px;
     padding: 10px;
-    border-radius: 12px;
+    border-radius: 10px;
     font-weight: bold;
     margin: 10px;
     background-color: black;
     background: rgba(0, 0, 0, 0.3);
-    color: white;
-    border: 2px solid #00BFFF;
+    color: rgb(228, 123, 84);
+    border: 2px solid rgb(228, 123, 84);
 }
 
 .download form input:hover {
-    background: #00BFFF;
+    background: rgb(245, 105, 55);
     color: white;
+    box-shadow: 0 0 20px #888;
+    transform: translateY(-7px);
+}
+
+footer {
+    height: 33vh;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: space-around; */
+}
+
+footer div {
+    display: flex;
+    /* width: 30%; */
+    /* flex-direction: column; */
+    align-items: center;
+    /* justify-content: space-around; */
+    /* width: 20%; */
+    /* border: 1px solid blue; */
+}
+
+.footer-logo {
+    margin-left: 40px;
+    width: 20%;
+}
+
+footer .contact {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer code {
+    text-align: center;
+}
+
+.social-media {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media a {
+    /* border: 1px solid orange; */
+    width: 10%;
+}
+
+.social-media img {
+    /* width: 50px; */
+    border-radius: 100%;
+    box-shadow: 0 0 10px#ccc;
+    transition: 0.5s;
+    margin: 10px;
+}
+
+.social-media a:hover img {
+    transform: translateY(-10px);
+    box-shadow: 0 0 10px#666;
 }
