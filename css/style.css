@@ -45,7 +45,7 @@ nav div form input:hover {
 }
 
 nav h1 {
-    margin-left: 5vh;
+    margin-left: 5vw;
 }
 
 .first {
@@ -115,19 +115,6 @@ img {
     flex-direction: row-reverse;
 }
 
-.GameName {
-    margin: 30px 15px;
-    width: 140%;
-}
-
-.second div {
-    width: 30%;
-    height: 100vh;
-    border: 2px solid yellow;
-    letter-spacing: 4px;
-    padding: 18px;
-}
-
 .credit-section {
     background-image: url("../images/pawel-czerwinski-tMbQpdguDVQ-unsplash.jpg");
     background-color: rgba(0, 0, 0, 0.5);
@@ -150,6 +137,8 @@ img {
 .credits {
     margin: 30px 15px;
     display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
 }
 
 .credit div {
@@ -187,18 +176,6 @@ a {
 
 a:hover {
     text-decoration: underline;
-}
-
-#saffron {
-    color: #F4C430
-}
-
-#white {
-    color: white
-}
-
-#green {
-    color: green;
 }
 
 .download {
