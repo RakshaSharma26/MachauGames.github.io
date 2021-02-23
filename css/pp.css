@@ -143,6 +143,9 @@
     }
     
     @media (max-width: 426px) {
+        nav div form input {
+            font-size: 14px;
+        }
         nav div .logo {
             margin-top: 10px;
             width: 26%;
