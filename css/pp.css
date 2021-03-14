@@ -54,6 +54,49 @@ nav div form input:hover {
     color: white;
 }
 
+#email {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+    /* border: 1px solid hotpink; */
+    width: 23vh;
+    font-size: 12px;
+    height: 10vh;
+    /* padding: 0 7px; */
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+}
+
+#email a {
+    width: 100%;
+    /* border: 1px solid rosybrown; */
+    text-decoration: none;
+    color: white;
+    /* margin: 3px; */
+}
+
+#email i {
+    /* border: 1px solid royalblue; */
+    margin-right: 10px;
+}
+
+.fa-paper-plane {
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    font-family: FontAwesome, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#email a:hover {
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    color: #999;
+}
+
 .fa-paper-plane {
     border: none;
     background-color: transparent;
@@ -202,6 +245,16 @@ footer a {
         font-size: 9px;
         padding: 0 10px;
     }
+    #email {
+        font-size: 9px;
+        padding: 0 3px;
+    }
+    #email a {
+        width: 70px;
+    }
+    #email i {
+        margin-right: 6px;
+    }
     .policy {
         font-size: 14px;
         width: 93%;
@@ -286,10 +339,21 @@ footer {
         /* border: 1px solid yellow; */
         width: 20%;
     }
+    nav h1 {
+        margin-left: 3vh;
+        line-height: 1.3;
+        font-size: 1rem;
+    }
     nav a .logo {
         /* border: 1px solid red; */
         margin-top: 10px;
-        width: 65%;
+        width: 70%;
+    }
+    #email a {
+        width: 80px;
+    }
+    #email i {
+        margin-right: 6px;
     }
     .policy {
         font-size: 16px;
@@ -342,5 +406,19 @@ footer {
         text-align: center;
         width: 70%;
         margin: 3px;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    #email {
+        width: 190px!important;
+        font-size: 12px;
+        padding: 0 0px;
+    }
+    #email a {
+        width: 100%!important;
+    }
+    #email i {
+        margin-right: 6px!important;
     }
 }

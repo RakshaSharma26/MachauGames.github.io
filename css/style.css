@@ -58,13 +58,44 @@ nav div form input:hover {
     color: white;
 }
 
+#email {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+    /* border: 1px solid hotpink; */
+    width: 23vh;
+    font-size: 12px;
+    height: 10vh;
+    /* padding: 0 7px; */
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+}
+
+#email a {
+    width: 100%;
+    /* border: 1px solid rosybrown; */
+    text-decoration: none;
+    color: white;
+    /* margin: 3px; */
+}
+
+#email i {
+    /* border: 1px solid royalblue; */
+    margin-right: 10px;
+}
+
 .fa-paper-plane {
+    text-decoration: none;
     border: none;
     background-color: transparent;
     font-family: FontAwesome, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-.fa-paper-plane:hover {
+#email a:hover {
+    text-decoration: none;
     border: none;
     background-color: transparent;
     color: #999;
@@ -195,7 +226,8 @@ img {
     text-align: center;
 }
 
-a {
+.contact a,
+.special-thanks a {
     color: yellowgreen;
     text-decoration: none;
 }
