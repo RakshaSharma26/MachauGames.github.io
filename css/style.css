@@ -63,7 +63,7 @@ nav div form input:hover {
     flex-direction: row;
     justify-content: center;
     align-items: center; */
-    /* border: 1px solid hotpink; */
+    border: 1px solid hotpink;
     width: 23vh;
     font-size: 12px;
     height: 10vh;
@@ -234,6 +234,11 @@ img {
 
 a:hover {
     text-decoration: underline;
+}
+
+#screenshots {
+    text-align: center;
+    text-transform: uppercase;
 }
 
 #ss {
