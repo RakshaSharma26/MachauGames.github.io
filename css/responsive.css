@@ -462,7 +462,7 @@
         padding: 0 0px;
     }
     #email a {
-        width: 100%!important;
+        width: 60%!important;
     }
     #email i {
         margin-right: 6px!important;
@@ -505,7 +505,6 @@
         width: 97%;
         text-decoration: none;
         color: white;
-        /* margin: 3px; */
     }
     #ss {
         width: 95%;
