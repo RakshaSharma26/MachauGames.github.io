@@ -91,6 +91,63 @@
         height: auto;
         margin: 5px;
     }
+    #ss {
+        width: 95%;
+        margin: 20px auto;
+        height: 200px;
+        animation-name: check;
+        animation-duration: 30s;
+        animation-iteration-count: infinite;
+        /*animation-timing-function:ease-out;*/
+        /*animation-delay:3s;*/
+    }
+    @keyframes check {
+        0% {
+            background-image: url("../images/1.jpg");
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        13% {
+            background-image: url("../images/2.jpg");
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        24% {
+            background-image: url("../images/3.jpg");
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        36% {
+            background-image: url("../images/4.jpg");
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        46% {
+            background-image: url("../images/5.jpg");
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        58% {
+            background-image: url("../images/6.jpg");
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        70% {
+            background-image: url("../images/7.jpg");
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        84% {
+            background-image: url("../images/8.jpg");
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        100% {
+            background-image: url("../images/9.jpg");
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    }
     .credit-section {
         height: auto;
         padding: 7px;
@@ -239,6 +296,64 @@
     nav div form input {
         font-size: 10px;
         padding: 0 15px;
+    }
+    #ss {
+        width: 95%;
+        margin-top: 20px;
+        margin: auto;
+        height: 350px;
+        animation-name: check;
+        animation-duration: 30s;
+        animation-iteration-count: infinite;
+        /*animation-timing-function:ease-out;*/
+        /*animation-delay:3s;*/
+    }
+    @keyframes check {
+        0% {
+            background-image: url("../images/1.jpg");
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        13% {
+            background-image: url("../images/2.jpg");
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        24% {
+            background-image: url("../images/3.jpg");
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        36% {
+            background-image: url("../images/4.jpg");
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        46% {
+            background-image: url("../images/5.jpg");
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        58% {
+            background-image: url("../images/6.jpg");
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        70% {
+            background-image: url("../images/7.jpg");
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        84% {
+            background-image: url("../images/8.jpg");
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        100% {
+            background-image: url("../images/9.jpg");
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
     }
     #email {
         font-size: 10px;
@@ -391,5 +506,63 @@
         text-decoration: none;
         color: white;
         /* margin: 3px; */
+    }
+    #ss {
+        width: 95%;
+        margin-top: 20px;
+        margin: auto;
+        height: 430px;
+        animation-name: check;
+        animation-duration: 30s;
+        animation-iteration-count: infinite;
+        /*animation-timing-function:ease-out;*/
+        /*animation-delay:3s;*/
+    }
+    @keyframes check {
+        0% {
+            background-image: url("../images/1.jpg");
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        13% {
+            background-image: url("../images/2.jpg");
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        24% {
+            background-image: url("../images/3.jpg");
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        36% {
+            background-image: url("../images/4.jpg");
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        46% {
+            background-image: url("../images/5.jpg");
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        58% {
+            background-image: url("../images/6.jpg");
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        70% {
+            background-image: url("../images/7.jpg");
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        84% {
+            background-image: url("../images/8.jpg");
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        100% {
+            background-image: url("../images/9.jpg");
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
     }
 }
