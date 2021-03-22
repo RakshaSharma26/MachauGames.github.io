@@ -36,82 +36,32 @@ nav a .logo {
     width: 100%;
 }
 
-nav div form input {
-    cursor: pointer;
-    font-size: 12px;
+#download a {
+    width: auto;
     height: 10vh;
-    padding: 0 15px;
-    font-weight: bold;
-    background: rgb(216, 94, 50);
-    border: 1.5px solid rgb(216, 94, 50);
     color: white;
+    padding: 0 15px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1.3px;
+    background: rgb(216, 94, 50);
+    border: 1.5px solid rgb(216, 94, 50);
 }
 
-nav div form input:hover {
+#download a:visited {
+    color: white;
+}
+
+#download a:hover {
     background: rgb(212, 106, 67);
     color: white;
 }
 
-#email {
-    /* display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center; */
-    /* border: 1px solid hotpink; */
-    width: 23vh;
-    font-size: 12px;
-    height: 10vh;
-    /* padding: 0 7px; */
-    font-weight: bold;
-    color: white;
-    text-transform: uppercase;
-    letter-spacing: 1.3px;
-}
-
-#email a {
-    width: 100%;
-    /* border: 1px solid rosybrown; */
-    text-decoration: none;
-    color: white;
-    /* margin: 3px; */
-}
-
-#email i {
-    /* border: 1px solid royalblue; */
-    margin-right: 10px;
-}
-
-.fa-paper-plane {
-    text-decoration: none;
-    border: none;
-    background-color: transparent;
-    font-family: FontAwesome, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-#email a:hover {
-    text-decoration: none;
-    border: none;
-    background-color: transparent;
-    color: #999;
-}
-
-.fa-paper-plane {
-    border: none;
-    background-color: transparent;
-    font-family: FontAwesome, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-.fa-paper-plane:hover {
-    border: none;
-    background-color: transparent;
-    color: #999;
-}
-
 nav h1 {
     /* border: 1px solid limegreen; */
-    margin-left: 5vh;
+    margin-left: 5vw;
 }
 
 .policy-logo {
@@ -231,7 +181,7 @@ footer a {
         justify-content: center;
         align-items: center;
         font-size: 1rem;
-        margin-left: 1vh;
+        margin-left: -20px;
     }
     nav a {
         margin-top: 5px;
@@ -239,21 +189,10 @@ footer a {
     nav a .logo {
         /* border: 1px solid red; */
         margin-top: 15px;
-        width: 70%;
+        width: 50%;
     }
-    nav div form input {
-        font-size: 9px;
-        padding: 0 10px;
-    }
-    #email {
-        font-size: 9px;
+    #download a {
         padding: 0 3px;
-    }
-    #email a {
-        width: 70px;
-    }
-    #email i {
-        margin-right: 6px;
     }
     .policy {
         font-size: 14px;
