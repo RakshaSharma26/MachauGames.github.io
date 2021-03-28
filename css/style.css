@@ -76,6 +76,20 @@ nav h1 {
     margin: 0 2vh;
 }
 
+@font-face {
+    font-family: jpweb;
+    src: url('../POLYA.otf')
+}
+
+
+/* .second {
+    text-align: center;
+    font-family: jpweb;
+    font-size: 70px;
+    font-weight: 100;
+    margin-top: 20px;
+} */
+
 .first {
     background-image: url("../images/FrozenCove.0044_(2).jpg");
     background-color: rgba(0, 0, 0, 0.4);

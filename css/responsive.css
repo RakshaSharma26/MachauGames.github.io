@@ -40,6 +40,13 @@
     #email i {
         margin-right: 6px;
     } */
+    .second {
+        /* border: 1px solid palevioletred; */
+        font-size: 30px;
+        font-weight: 60;
+        margin-top: 20px;
+        /* color: #ffe36e; */
+    }
     .first div {
         width: 90%;
         height: 100vh;
@@ -280,6 +287,13 @@
         width: 15%;
         /* border: 1px solid yellowgreen; */
     }
+    .second {
+        /* border: 1px solid palevioletred; */
+        font-size: 40px;
+        font-weight: 100;
+        margin-top: 20px;
+        /* color: #ffe36e; */
+    }
     nav h1 {
         display: flex;
         justify-content: center;
@@ -368,6 +382,13 @@
     #email i {
         margin-right: 6px;
     }
+    .second {
+        /* border: 1px solid palevioletred; */
+        font-size: 50px;
+        font-weight: 100;
+        margin-top: 20px;
+        /* color: #ffe36e; */
+    }
     .first div {
         width: 80%;
         height: 100vh;
@@ -450,6 +471,13 @@
         margin-top: 5px;
         padding: 10px 0 0 3px; */
         font-size: 1rem;
+    }
+    .second {
+        /* border: 1px solid palevioletred; */
+        font-size: 50px;
+        font-weight: 100;
+        margin-top: 20px;
+        /* color: #ffe36e; */
     }
     nav a .logo {
         /* border: 1px solid red; */
