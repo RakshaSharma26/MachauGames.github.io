@@ -90,6 +90,11 @@ nav h1 {
     margin-top: 20px;
 } */
 
+
+/* #madeinindia {
+    background-image: linear-gradient(to right, #ff9933, #ff9c7c, #ffadb9, #ebe1ff, #d5e0ff, #bfdffc, #68ceea, #00bcbc, #00a572, #138808);
+} */
+
 .first {
     background-image: url("../images/FrozenCove.0044_(2).jpg");
     background-color: rgba(0, 0, 0, 0.4);
@@ -105,6 +110,7 @@ nav h1 {
     width: 30%;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 16px;
@@ -113,6 +119,14 @@ nav h1 {
     line-height: 1.62857143;
     letter-spacing: 1.3px;
     /* text-shadow: 2px 2px 4px orange; */
+}
+
+#madeinindia {
+    font-size: 38px;
+    background: linear-gradient(#ff9933, #ff9c7c, #e6891f, #fff, #fff, #00a572, #127777, #138808);
+    text-align: left!important;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 img {
@@ -223,6 +237,9 @@ a:hover {
 #screenshots {
     text-align: center;
     text-transform: uppercase;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 #ss {
@@ -283,18 +300,6 @@ a:hover {
         background-repeat: no-repeat;
     }
 }
-
-
-/* .ss {
-    border: 1px solid yellow;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.ss img {
-    width: 40%;
-} */
 
 .download {
     background-image: url("../images/HighresScreenshot00001\ \(1\).jpg");
