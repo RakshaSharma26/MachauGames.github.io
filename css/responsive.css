@@ -1,51 +1,24 @@
 @media (max-width: 426px) {
     nav a {
-        width: 20%;
-        display: flex;
-        flex-direction: row;
-        /* align-items: center; */
-        letter-spacing: 1.3px;
-        /* border: 1px solid yellowgreen; */
+        width: 13%;
     }
-    nav h1 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: 3vh;
-        line-height: 1.3;
-        /* margin-left: 1vw;
-        margin-top: 5px;
-        padding: 10px 0 0 3px; */
-        font-size: 1rem;
-    }
-    nav div form input {
-        font-size: 9px;
-        padding: 0 9px;
-    }
-    nav a .logo {
+    .slider {
+        width: 100vw!important;
+        margin: auto;
         /* border: 1px solid red; */
-        margin-top: 5px;
-        width: 100%;
+    }
+    .screenshots {
+        margin: 0 14px 10px 14px!important;
     }
     #download a {
+        font-size: 8px;
         padding: 0 3px;
     }
-    /* #email {
-        font-size: 9px;
-        padding: 0 3px;
-    }
-    #email a {
-        width: 70px;
-    }
-    #email i {
-        margin-right: 6px;
-    } */
     .second {
         /* border: 1px solid palevioletred; */
         font-size: 30px;
         font-weight: 60;
         margin-top: 20px;
-        /* color: #ffe36e; */
     }
     .first div {
         width: 90%;
@@ -65,16 +38,7 @@
         color: white;
     }
     #madeinindia {
-        font-size: 28px;
-    }
-    .logo {
-        /* margin-top: 10px;
-        padding-top: 10px;
-        margin-left: 0; */
-        width: 28%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        font-size: 22px;
     }
     .card1,
     .card2,
@@ -93,7 +57,7 @@
     .card2-div,
     .card3-div {
         width: 93%;
-        font-size: 14px;
+        font-size: 12px;
         margin: 0 5px;
     }
     .card1 img,
@@ -104,62 +68,31 @@
         height: auto;
         margin: 5px;
     }
-    #ss {
-        width: 95%;
-        margin: 20px auto;
-        height: 200px;
-        animation-name: check;
-        animation-duration: 30s;
-        animation-iteration-count: infinite;
-        /*animation-timing-function:ease-out;*/
-        /*animation-delay:3s;*/
+    .iframe-container {
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%;
+        height: 0;
     }
-    @keyframes check {
-        0% {
-            background-image: url("../images/1.jpg");
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-        13% {
-            background-image: url("../images/2.jpg");
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-        24% {
-            background-image: url("../images/3.jpg");
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-        36% {
-            background-image: url("../images/4.jpg");
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-        46% {
-            background-image: url("../images/5.jpg");
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-        58% {
-            background-image: url("../images/6.jpg");
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-        70% {
-            background-image: url("../images/7.jpg");
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-        84% {
-            background-image: url("../images/8.jpg");
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-        100% {
-            background-image: url("../images/9.jpg");
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
+    .iframe-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    #trailer {
+        margin: 0 0 30px 0;
+    }
+    .review {
+        width: 95vw;
+    }
+    .review .slick-slide {
+        margin: 0 10px;
+    }
+    /* the parent */
+    .review .slick-list {
+        margin: 0 -10px;
     }
     .credit-section {
         height: auto;
@@ -181,6 +114,12 @@
         padding: 15px;
         line-height: 1.1;
     }
+    .credit p {
+        font-size: 13px;
+    }
+    .special-thanks div p {
+        font-size: 13px;
+    }
     .download {
         height: 70vh;
     }
@@ -195,6 +134,7 @@
         /* border: 1px solid red; */
         width: 60%;
         margin: auto;
+        text-align: center;
     }
     footer>div {
         display: flex;
@@ -214,15 +154,10 @@
     footer .contact p:nth-child(3) {
         margin-top: -5px;
     }
-    .footer-logo {
-        text-align: center;
-    }
-    .footer-logo img {
+    .footer-logo a img {
         width: 30%;
         /* border: 1px solid yellow; */
         margin: 3px auto;
-        /* text-align: center; */
-        /* margin-bottom: 5px; */
         margin-bottom: 0px;
     }
     .social-media {
@@ -250,12 +185,7 @@
 }
 
 @media (max-width: 320px) {
-    .logo {
-        margin-top: 10px;
-        padding-top: 0px;
-        width: 28%;
-    }
-    nav h1 {
+    nav span {
         display: none;
     }
     .first div {
@@ -275,142 +205,41 @@
         height: auto;
         margin: 5px;
     }
-    nav a {
-        width: 30%;
-        /* border: 1px solid yellowgreen; */
-    }
-    nav div form input {
-        font-size: 9px;
-        padding: 0 10px;
-    }
 }
 
 @media (max-width: 767px) and (min-width: 426px) {
-    nav a {
-        width: 15%;
-        /* border: 1px solid yellowgreen; */
+    .screenshots {
+        margin: 0 14px 10px 14px!important;
     }
-    .second {
-        /* border: 1px solid palevioletred; */
-        font-size: 40px;
-        font-weight: 100;
-        margin-top: 20px;
-        /* color: #ffe36e; */
+    nav span {
+        margin: 0 10px;
     }
-    nav h1 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: 3vh;
-        line-height: 1.3;
-        /* margin-left: 1vw;
-        margin-top: 5px;
-        padding: 10px 0 0 3px; */
-        font-size: 1rem;
+    .slider {
+        width: 100vw!important;
+        margin: auto;
+        /* border: 1px solid red; */
     }
     nav a .logo {
         /* border: 1px solid red; */
-        margin-top: 5px;
-        width: 70%;
+        /* margin-top: 5px; */
+        width: 115%;
     }
-    nav div form input {
-        font-size: 10px;
-        padding: 0 15px;
+    .review {
+        width: 95vw;
     }
-    #madeinindia {
-        font-size: 31px;
-        /* text-align: left; */
+    .review .slick-slide {
+        margin: 0 10px;
     }
-    #ss {
-        width: 95%;
-        margin-top: 20px;
-        margin: auto;
-        height: 350px;
-        animation-name: check;
-        animation-duration: 30s;
-        animation-iteration-count: infinite;
-        /*animation-timing-function:ease-out;*/
-        /*animation-delay:3s;*/
-    }
-    @keyframes check {
-        0% {
-            background-image: url("../images/1.jpg");
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-        13% {
-            background-image: url("../images/2.jpg");
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-        24% {
-            background-image: url("../images/3.jpg");
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-        36% {
-            background-image: url("../images/4.jpg");
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-        46% {
-            background-image: url("../images/5.jpg");
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-        58% {
-            background-image: url("../images/6.jpg");
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-        70% {
-            background-image: url("../images/7.jpg");
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-        84% {
-            background-image: url("../images/8.jpg");
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-        100% {
-            background-image: url("../images/9.jpg");
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-    }
-    #email {
-        font-size: 10px;
-        padding: 0 3px;
-    }
-    #email a {
-        width: 80px;
-    }
-    #email i {
-        margin-right: 6px;
-    }
-    .second {
-        /* border: 1px solid palevioletred; */
-        font-size: 50px;
-        font-weight: 100;
-        margin-top: 20px;
-        /* color: #ffe36e; */
+    /* the parent */
+    .review .slick-list {
+        margin: 0 -10px;
     }
     .first div {
         width: 80%;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 16px;
-        margin-left: 30px;
-        padding: 0 20px;
-        line-height: 1.62857143;
-        letter-spacing: 1.3px;
-        /* text-shadow: 2px 2px 4px orange; */
+        font-size: 15px;
     }
     #madeinindia {
-        font-size: 34px;
+        font-size: 25px;
     }
     .card1,
     .card2,
@@ -429,7 +258,7 @@
     .card2-div,
     .card3-div {
         width: 93%;
-        font-size: 16px;
+        font-size: 15px;
     }
     .card1 img,
     .card2 img,
@@ -457,6 +286,9 @@
         font-weight: bold;
         font-size: 16px;
     }
+    .credit div {
+        font-size: 15px;
+    }
     .credit {
         text-align: center;
         width: 80%;
@@ -464,24 +296,36 @@
         padding: 15px;
         line-height: 1.1;
     }
+    /* .download a {
+        font-size: 15px;
+    } */
+    .footer-logo {
+        width: 13%;
+    }
+    .footer-logo a img {
+        width: 80%;
+    }
+    .social-media a {
+        margin: 5px 10px 0 0;
+    }
+    .social-media a img {
+        margin: 5px;
+        width: 80%;
+    }
+    .social-media {
+        /* border: 1px solid palevioletred; */
+        margin-left: 3px;
+        width: 40%;
+    }
+}
+
+@media (max-width: 599px) and (min-width: 426px) {
+    .review {
+        width: 80vw;
+    }
 }
 
 @media (max-width: 991px) and (min-width: 768px) {
-    nav a {
-        width: 10%;
-    }
-    nav h1 {
-        /* border: 1px solid khaki; */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: 3vh;
-        line-height: 1.3;
-        /* margin-left: 1vw;
-        margin-top: 5px;
-        padding: 10px 0 0 3px; */
-        font-size: 1rem;
-    }
     .second {
         /* border: 1px solid palevioletred; */
         font-size: 50px;
@@ -490,26 +334,10 @@
         /* color: #ffe36e; */
     }
     #madeinindia {
-        font-size: 34px;
-    }
-    nav a .logo {
-        /* border: 1px solid red; */
-        margin-top: 5px;
-        width: 70%;
+        font-size: 31px;
     }
     .first div {
         width: 50%;
-    }
-    #email {
-        width: 190px!important;
-        font-size: 12px;
-        padding: 0 0px;
-    }
-    #email a {
-        width: 60%!important;
-    }
-    #email i {
-        margin-right: 6px!important;
     }
     .card1,
     .card2,
@@ -549,63 +377,5 @@
         width: 97%;
         text-decoration: none;
         color: white;
-    }
-    #ss {
-        width: 95%;
-        margin-top: 20px;
-        margin: auto;
-        height: 430px;
-        animation-name: check;
-        animation-duration: 30s;
-        animation-iteration-count: infinite;
-        /*animation-timing-function:ease-out;*/
-        /*animation-delay:3s;*/
-    }
-    @keyframes check {
-        0% {
-            background-image: url("../images/1.jpg");
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-        13% {
-            background-image: url("../images/2.jpg");
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-        24% {
-            background-image: url("../images/3.jpg");
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-        36% {
-            background-image: url("../images/4.jpg");
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-        46% {
-            background-image: url("../images/5.jpg");
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-        58% {
-            background-image: url("../images/6.jpg");
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-        70% {
-            background-image: url("../images/7.jpg");
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-        84% {
-            background-image: url("../images/8.jpg");
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-        100% {
-            background-image: url("../images/9.jpg");
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
     }
 }

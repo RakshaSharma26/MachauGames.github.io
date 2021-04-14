@@ -3,6 +3,10 @@
     padding: 0px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: black;
     color: white;
@@ -10,9 +14,49 @@ body {
     font-family: Helvetica, sans-serif;
 }
 
+
+/****************************************SCROLL BARS****************************************/
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    /* box-shadow: inset 0 0 5px grey;  */
+    border-radius: 10px;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: rgb(216, 94, 50);
+    border-radius: 10px;
+}
+
+
+/* Handle on hover */
+
+
+/* ::-webkit-scrollbar-thumb:hover {
+    background: rgb(212, 106, 67);
+} */
+
+
+/****************************************SCROLL BARS END****************************************/
+
+
+/****************************************NAVIGATION****************************************/
+
 nav {
     background: black;
-    height: 10vh;
+    height: 8vh;
     /* border: 2px solid red; */
     display: flex;
     justify-content: space-between;
@@ -21,7 +65,7 @@ nav {
 }
 
 nav a {
-    width: 5%;
+    width: 7%;
     /* border: 1px solid yellowgreen; */
 }
 
@@ -40,21 +84,14 @@ nav a .logo {
     width: 100%;
 }
 
-
-/* nav .machau {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-} */
-
 #download a {
     width: auto;
-    height: 10vh;
+    height: 8vh;
     /* border: 1px solid greenyellow; */
     color: white;
     padding: 0 15px;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1.3px;
@@ -71,29 +108,18 @@ nav a .logo {
     color: white;
 }
 
-nav h1 {
+nav span {
+    font-size: 1rem;
     /* border: 1px solid limegreen; */
-    margin: 0 2vh;
-}
-
-@font-face {
-    font-family: jpweb;
-    src: url('../POLYA.otf')
+    margin: 0 3px;
+    font-weight: bold;
 }
 
 
-/* .second {
-    text-align: center;
-    font-family: jpweb;
-    font-size: 70px;
-    font-weight: 100;
-    margin-top: 20px;
-} */
+/****************************************NAVIGATION END****************************************/
 
 
-/* #madeinindia {
-    background-image: linear-gradient(to right, #ff9933, #ff9c7c, #ffadb9, #ebe1ff, #d5e0ff, #bfdffc, #68ceea, #00bcbc, #00a572, #138808);
-} */
+/****************************************MACHAU GAMES****************************************/
 
 .first {
     background-image: url("../images/FrozenCove.0044_(2).jpg");
@@ -112,26 +138,26 @@ nav h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     font-size: 16px;
     margin-left: 30px;
     padding: 0 20px;
-    line-height: 1.62857143;
-    letter-spacing: 1.3px;
+    letter-spacing: 1.1px;
     /* text-shadow: 2px 2px 4px orange; */
 }
 
 #madeinindia {
-    font-size: 38px;
+    font-size: 35px;
     background: linear-gradient(#ff9933, #ff9c7c, #e6891f, #fff, #fff, #00a572, #127777, #138808);
-    text-align: left!important;
+    /* text-align: left!important; */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-img {
-    width: 70%;
-}
+
+/****************************************MACHAU GAMES END****************************************/
+
+
+/****************************************CARDS****************************************/
 
 .card1,
 .card2,
@@ -168,6 +194,82 @@ img {
 .card2 {
     flex-direction: row-reverse;
 }
+
+
+/****************************************CARDS END****************************************/
+
+
+/****************************************TRAILER****************************************/
+
+.iframe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trailer {
+    margin: 0 0 70px 0;
+}
+
+
+/****************************************TRAILER END****************************************/
+
+
+/****************************************SCREENSHOTS****************************************/
+
+.screenshots {
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #5d4257;
+    /* background-image: linear-gradient(315deg, #5d4257 0%, #a5c7b7 74%); */
+    background: -webkit-linear-gradient(#93a5cf, #e4efe9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.slider {
+    width: 90vw!important;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+
+.slick-dots li button:before {
+    color: gainsboro!important;
+}
+
+.slick-dots li.slick-active button:before {
+    color: rgb(197, 112, 81) !important;
+}
+
+
+/****************************************SCREENSHOTS END****************************************/
+
+
+/****************************************REVIEWS****************************************/
+
+.review {
+    width: 90vw;
+    /* height: 50vh; */
+    margin: auto;
+}
+
+.review .slick-slide {
+    margin: 0 20px;
+}
+
+
+/* the parent */
+
+.review .slick-list {
+    margin: 0 -20px;
+}
+
+
+/****************************************REVIEWS END****************************************/
+
+
+/****************************************CREDITS****************************************/
 
 .credit-section {
     background-image: url("../images/pawel-czerwinski-tMbQpdguDVQ-unsplash.jpg");
@@ -213,6 +315,16 @@ img {
     box-shadow: 0 4px 8px 0 #999;
 }
 
+.credit-section h1 {
+    color: white!important;
+}
+
+
+/****************************************CREDITS END****************************************/
+
+
+/****************************************SPECIAL THANKS****************************************/
+
 .special-thanks {
     background-color: rgba(0, 0, 0, 0.2);
     display: flex;
@@ -234,72 +346,11 @@ a:hover {
     text-decoration: underline;
 }
 
-#screenshots {
-    text-align: center;
-    text-transform: uppercase;
-    background: -webkit-linear-gradient(#eee, #333);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 
-#ss {
-    width: 90%;
-    margin: 50px auto;
-    height: 650px;
-    animation-name: check;
-    animation-duration: 40s;
-    animation-iteration-count: infinite;
-    /*animation-timing-function:ease-out;*/
-    /*animation-delay:3s;*/
-}
+/****************************************SPECIAL THANKS END****************************************/
 
-@keyframes check {
-    0% {
-        background-image: url("../images/1.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    13% {
-        background-image: url("../images/2.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    24% {
-        background-image: url("../images/3.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    36% {
-        background-image: url("../images/4.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    46% {
-        background-image: url("../images/5.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    58% {
-        background-image: url("../images/6.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    70% {
-        background-image: url("../images/7.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    84% {
-        background-image: url("../images/8.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    100% {
-        background-image: url("../images/9.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-}
+
+/****************************************TNC SECTION****************************************/
 
 .download {
     background-image: url("../images/HighresScreenshot00001\ \(1\).jpg");
@@ -344,16 +395,10 @@ a:hover {
 }
 
 
-/* .download form input {
-    cursor: pointer;
-}
+/****************************************TNC SECTION END****************************************/
 
-.download form input:hover {
-    background: rgb(245, 105, 55);
-    color: white;
-    box-shadow: 0 0 20px #888;
-    transform: translateY(-7px);
-} */
+
+/****************************************FOOTER****************************************/
 
 footer {
     /* border: 1px solid orange; */
@@ -365,15 +410,21 @@ footer {
 }
 
 footer div {
-    /* border: 1px solid tomato; */
+    /* border: 1px solid orchid; */
     display: flex;
     align-items: center;
 }
 
 .footer-logo {
-    /* border: 1px solid yellowgreen; */
+    /* border: 1px solid tomato; */
     width: 12%;
-    margin: 0 0 0 20px;
+    /* margin: 0 0 0 20px; */
+}
+
+.footer-logo a img {
+    /* border: 1px solid yellowgreen; */
+    width: 70%;
+    /* margin: 0 0 0 20px; */
 }
 
 footer .contact {
@@ -403,10 +454,11 @@ footer .contact {
 .social-media a {
     /* border: 1px solid violet; */
     width: 15%;
-    margin-top: 15px;
+    margin: 15px 10px 0 0;
 }
 
 .social-media img {
+    width: 90%;
     border-radius: 100%;
     box-shadow: 0 0 10px#ccc;
     transition: 0.5s;
@@ -417,3 +469,6 @@ footer .contact {
     transform: translateY(-10px);
     box-shadow: 0 0 10px#666;
 }
+
+
+/****************************************FOOTER END****************************************/
