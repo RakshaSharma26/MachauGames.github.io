@@ -40,6 +40,11 @@ html {
 
 /****************************************NAVIGATION****************************************/
 
+#machau a {
+    color: white;
+    text-decoration: none;
+}
+
 nav {
     margin: -7px -8px;
     padding: 0px;
@@ -143,6 +148,11 @@ footer {
     align-items: center;
 }
 
+footer a {
+    color: yellowgreen;
+    text-decoration: none;
+}
+
 footer div {
     /* border: 1px solid orchid; */
     display: flex;
@@ -152,6 +162,10 @@ footer div {
 .footer-logo {
     /* border: 1px solid hotpink; */
     width: 12%;
+}
+
+.footer-logo a {
+    color: white;
 }
 
 .footer-logo a img {
@@ -190,6 +204,7 @@ footer .contact p:nth-child(3) {
 }
 
 .social-media a {
+    color: white;
     width: 15%;
     margin: 15px 10px 0 0;
 }
@@ -205,11 +220,6 @@ footer .contact p:nth-child(3) {
 .social-media a:hover img {
     transform: translateY(-10px);
     box-shadow: 0 0 10px#666;
-}
-
-footer a {
-    color: yellowgreen;
-    text-decoration: none;
 }
 
 
@@ -358,6 +368,8 @@ footer a {
         margin-top: -5px;
     }
     .social-media a {
+        color: white;
+        text-decoration: none;
         margin-top: 5px;
     }
     footer .contact {

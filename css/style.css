@@ -54,6 +54,11 @@ body {
 
 /****************************************NAVIGATION****************************************/
 
+#machau a {
+    color: white;
+    text-decoration: none;
+}
+
 nav {
     background: black;
     height: 8vh;
@@ -120,6 +125,10 @@ nav span {
 
 
 /****************************************MACHAU GAMES****************************************/
+
+#sound {
+    color: #999;
+}
 
 .first {
     background-image: url("../images/FrozenCove.0044_(2).jpg");
@@ -416,9 +425,17 @@ footer div {
 }
 
 .footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* border: 1px solid tomato; */
     width: 12%;
     /* margin: 0 0 0 20px; */
+}
+
+.footer-logo a {
+    color: white;
+    text-decoration: none;
 }
 
 .footer-logo a img {
@@ -429,7 +446,7 @@ footer div {
 
 footer .contact {
     /* border: 1px solid aquamarine; */
-    width: 70%;
+    width: 65%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -438,7 +455,7 @@ footer .contact {
 }
 
 .social-media {
-    width: 25%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -454,7 +471,9 @@ footer .contact {
 .social-media a {
     /* border: 1px solid violet; */
     width: 15%;
-    margin: 15px 10px 0 0;
+    margin: 15px 6px 0 0;
+    color: white;
+    text-decoration: none;
 }
 
 .social-media img {

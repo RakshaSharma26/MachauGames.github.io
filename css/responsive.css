@@ -306,7 +306,7 @@
         width: 80%;
     }
     .social-media a {
-        margin: 5px 10px 0 0;
+        margin: 5px 5px 0 0;
     }
     .social-media a img {
         margin: 5px;
@@ -369,13 +369,5 @@
     .card .game-name-img {
         width: 50%;
         height: auto;
-    }
-    #email {
-        width: 25vh;
-    }
-    #email a {
-        width: 97%;
-        text-decoration: none;
-        color: white;
     }
 }
