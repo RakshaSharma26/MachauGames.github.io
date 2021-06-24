@@ -28,7 +28,6 @@ body {
 /* Track */
 
  ::-webkit-scrollbar-track {
-    /* box-shadow: inset 0 0 5px grey;  */
     border-radius: 10px;
 }
 
@@ -41,17 +40,6 @@ body {
 }
 
 
-/* Handle on hover */
-
-
-/* ::-webkit-scrollbar-thumb:hover {
-    background: rgb(212, 106, 67);
-} */
-
-
-/****************************************SCROLL BARS END****************************************/
-
-
 /****************************************NAVIGATION****************************************/
 
 #machau a {
@@ -62,7 +50,6 @@ body {
 nav {
     background: black;
     height: 8vh;
-    /* border: 2px solid red; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -71,12 +58,10 @@ nav {
 
 nav a {
     width: 7%;
-    /* border: 1px solid yellowgreen; */
 }
 
 nav div,
 nav a {
-    /* margin: 0 10px; */
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -85,14 +70,12 @@ nav a {
 }
 
 nav a .logo {
-    /* border: 1px solid thistle; */
     width: 100%;
 }
 
 #download a {
     width: auto;
     height: 8vh;
-    /* border: 1px solid greenyellow; */
     color: white;
     padding: 0 15px;
     text-decoration: none;
@@ -115,13 +98,9 @@ nav a .logo {
 
 nav span {
     font-size: 1rem;
-    /* border: 1px solid limegreen; */
     margin: 0 3px;
     font-weight: bold;
 }
-
-
-/****************************************NAVIGATION END****************************************/
 
 
 /****************************************MACHAU GAMES****************************************/
@@ -151,19 +130,14 @@ nav span {
     margin-left: 30px;
     padding: 0 20px;
     letter-spacing: 1.1px;
-    /* text-shadow: 2px 2px 4px orange; */
 }
 
 #madeinindia {
     font-size: 35px;
     background: linear-gradient(#ff9933, #ff9c7c, #e6891f, #fff, #fff, #00a572, #127777, #138808);
-    /* text-align: left!important; */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
-
-/****************************************MACHAU GAMES END****************************************/
 
 
 /****************************************CARDS****************************************/
@@ -172,7 +146,6 @@ nav span {
 .card2,
 .card3,
 .card {
-    /* border: 1px solid cadetblue; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -194,7 +167,6 @@ nav span {
 .card2 img,
 .card3 img,
 .card img {
-    /* border: 1px solid tomato; */
     width: 48%;
     height: 55vh;
     margin: 10px;
@@ -203,9 +175,6 @@ nav span {
 .card2 {
     flex-direction: row-reverse;
 }
-
-
-/****************************************CARDS END****************************************/
 
 
 /****************************************TRAILER****************************************/
@@ -221,9 +190,6 @@ nav span {
 }
 
 
-/****************************************TRAILER END****************************************/
-
-
 /****************************************SCREENSHOTS****************************************/
 
 .screenshots {
@@ -231,7 +197,6 @@ nav span {
     text-align: center;
     text-transform: uppercase;
     background-color: #5d4257;
-    /* background-image: linear-gradient(315deg, #5d4257 0%, #a5c7b7 74%); */
     background: -webkit-linear-gradient(#93a5cf, #e4efe9);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -240,7 +205,6 @@ nav span {
 .slider {
     width: 90vw!important;
     margin: auto;
-    /* border: 1px solid red; */
 }
 
 .slick-dots li button:before {
@@ -252,14 +216,10 @@ nav span {
 }
 
 
-/****************************************SCREENSHOTS END****************************************/
-
-
 /****************************************REVIEWS****************************************/
 
 .review {
     width: 90vw;
-    /* height: 50vh; */
     margin: auto;
 }
 
@@ -273,9 +233,6 @@ nav span {
 .review .slick-list {
     margin: 0 -20px;
 }
-
-
-/****************************************REVIEWS END****************************************/
 
 
 /****************************************CREDITS****************************************/
@@ -303,7 +260,6 @@ nav span {
     margin: 30px 15px;
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
 }
 
 .credit div {
@@ -329,9 +285,6 @@ nav span {
 }
 
 
-/****************************************CREDITS END****************************************/
-
-
 /****************************************SPECIAL THANKS****************************************/
 
 .special-thanks {
@@ -354,9 +307,6 @@ nav span {
 a:hover {
     text-decoration: underline;
 }
-
-
-/****************************************SPECIAL THANKS END****************************************/
 
 
 /****************************************TNC SECTION****************************************/
@@ -404,14 +354,9 @@ a:hover {
 }
 
 
-/****************************************TNC SECTION END****************************************/
-
-
 /****************************************FOOTER****************************************/
 
 footer {
-    /* border: 1px solid orange; */
-    /* height: 30vh; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -419,7 +364,6 @@ footer {
 }
 
 footer div {
-    /* border: 1px solid orchid; */
     display: flex;
     align-items: center;
 }
@@ -428,9 +372,7 @@ footer div {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 1px solid tomato; */
     width: 12%;
-    /* margin: 0 0 0 20px; */
 }
 
 .footer-logo a {
@@ -439,13 +381,10 @@ footer div {
 }
 
 .footer-logo a img {
-    /* border: 1px solid yellowgreen; */
     width: 70%;
-    /* margin: 0 0 0 20px; */
 }
 
 footer .contact {
-    /* border: 1px solid aquamarine; */
     width: 65%;
     display: flex;
     flex-direction: column;
@@ -469,7 +408,6 @@ footer .contact {
 }
 
 .social-media a {
-    /* border: 1px solid violet; */
     width: 15%;
     margin: 15px 6px 0 0;
     color: white;
@@ -488,6 +426,3 @@ footer .contact {
     transform: translateY(-10px);
     box-shadow: 0 0 10px#666;
 }
-
-
-/****************************************FOOTER END****************************************/

@@ -4,12 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Raksha Sharma">
+    <meta name="keywords" content="Machau Games, The Lost Mystic Ornament, Action RPG, Indian RPG, Role playing game,Founder of Machau Games, Co-founder of Machau games, Himanshu Akodiya, Abhishek Akodiya, Raksha Sharma, Ajay Chhapola, Official trailer of The Lost Mystic Ornament, Screenshots of The Lost Mystic Ornament, Open world games, Open world RPG, Open world rpg games">
+    <meta name="description" content="Machau Games, an Indian mobile game organization, which has recently launched The Lost Mystic Ornament: Action RPG on Google Playstore">
+    <title>Machau Games</title>
     <link rel="shortcut icon" href="images/favicon1.png" type="image/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Machau Games</title>
-
-    <!-- <link rel="stylesheet" href="css/loader.css"> -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -17,15 +18,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
     <link rel="preconnect" href="https://fonts.gstatic.com">
 </head>
 
 <body>
-    <!-- <div id="loader-wrapper">
-        <div id="loader"></div>
-        <div class="loader-section"></div>
-    </div> -->
     <nav>
         <div id="machau">
             <a href="index.html"><img src="images/2021-02-21 (4).png" class="logo" alt="Machau Games logo"></a>
@@ -38,7 +34,6 @@
 
     <section class="first" id="#">
         <div>
-            <!-- <h2 id="madeinindia">MADE IN INDIA</h2> -->
             Machau Games <span id="sound">(/ma-cha-oo/ /geɪmz/) (मचाउ गेम्स)</span> is an Indian mobile game organization, which is launched with the intent to enrich the players’ lives with original and unforgettable gaming experience. We aim to raise
             the bar of indie game development in India, and to increase the essence of indie game development.
         </div>
@@ -220,39 +215,35 @@
             slidesToShow: 1,
             slidesToScroll: 1,
             responsive: [{
-                    breakpoint: 1024,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        infinite: true,
-                        dots: true,
-                    }
-                }, {
-                    breakpoint: 850,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        arrows: false
-                    }
-                }, {
-                    breakpoint: 600,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        arrows: false
-                    }
-                }, {
-                    breakpoint: 480,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        arrows: false
-                    }
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true,
                 }
-                // You can unslick at a given breakpoint now by adding:
-                // settings: "unslick"
-                // instead of a settings object
-            ]
+            }, {
+                breakpoint: 850,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: false
+                }
+            }, {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: false
+                }
+            }, {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: false
+                }
+            }]
         });
 
         $('.review').slick({

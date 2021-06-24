@@ -35,9 +35,6 @@ html {
 }
 
 
-/****************************************SCROLL BARS END****************************************/
-
-
 /****************************************NAVIGATION****************************************/
 
 #machau a {
@@ -58,13 +55,11 @@ nav {
 }
 
 nav a {
-    /* border: 1px solid yellow; */
     width: 7%;
 }
 
 nav div,
 nav a {
-    /* border: 1px solid yellow; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -73,7 +68,6 @@ nav a {
 }
 
 nav a .logo {
-    /* border: 1px solid red; */
     width: 100%;
 }
 
@@ -101,14 +95,10 @@ nav a .logo {
 }
 
 nav span {
-    /* border: 1px solid limegreen; */
     margin: 0 3px;
     font-size: 1rem;
     font-weight: bold;
 }
-
-
-/****************************************NAVIGATION END****************************************/
 
 
 /****************************************POLICY****************************************/
@@ -134,13 +124,9 @@ nav span {
 }
 
 
-/****************************************POLICY END****************************************/
-
-
 /****************************************FOOTER****************************************/
 
 footer {
-    /* border: 1px solid red; */
     margin: 50px -8px -7px -8px;
     display: flex;
     flex-direction: row;
@@ -154,13 +140,11 @@ footer a {
 }
 
 footer div {
-    /* border: 1px solid orchid; */
     display: flex;
     align-items: center;
 }
 
 .footer-logo {
-    /* border: 1px solid hotpink; */
     width: 12%;
 }
 
@@ -170,11 +154,9 @@ footer div {
 
 .footer-logo a img {
     width: 70%;
-    /* margin: auto; */
 }
 
 footer .contact {
-    /* border: 1px solid blue; */
     width: 70%;
     display: flex;
     flex-direction: column;
@@ -189,7 +171,6 @@ footer .contact p:nth-child(3) {
 }
 
 .social-media {
-    /* border: 1px solid orange; */
     width: 25%;
     display: flex;
     flex-direction: column;
@@ -221,9 +202,6 @@ footer .contact p:nth-child(3) {
     transform: translateY(-10px);
     box-shadow: 0 0 10px#666;
 }
-
-
-/****************************************FOOTER END****************************************/
 
 
 /****************************************RESPONSIVE****************************************/
@@ -258,13 +236,9 @@ footer .contact p:nth-child(3) {
         margin-bottom: -5px;
     }
     footer {
-        /* border: 1px solid yellow; */
         margin: 30px -8px -7px -8px;
-        /* display: flex;
-        flex-direction: column; */
     }
     footer .contact {
-        /* border: 1px solid red; */
         width: 100%;
         margin: auto;
         display: flex;
@@ -278,7 +252,6 @@ footer .contact p:nth-child(3) {
         margin-bottom: -5px;
     }
     .footer-logo {
-        /* border: 1px solid red; */
         width: 60%;
         margin: auto;
         text-align: center;
@@ -290,7 +263,6 @@ footer .contact p:nth-child(3) {
     }
     .footer-logo a img {
         width: 30%;
-        /* border: 1px solid yellow; */
         margin: 3px auto;
         margin-bottom: 0px;
     }
@@ -303,7 +275,6 @@ footer .contact p:nth-child(3) {
         justify-content: center;
     }
     .social-media a {
-        /* border: 1px solid red; */
         width: 40%;
         margin-top: -5px;
         text-align: center;
@@ -312,8 +283,6 @@ footer .contact p:nth-child(3) {
         text-align: center;
         width: 50%;
         margin: 3px 0 5px 0;
-        /* margin: 1px; */
-        /* margin-bottom: 10px; */
     }
     .social-media a:hover img {
         transform: translateY(-6px);
@@ -345,13 +314,8 @@ footer .contact p:nth-child(3) {
         line-height: 1.6;
     }
     footer {
-        /* border: 1px solid turquoise; */
         margin: 30px 0px 0px 0px;
     }
-    /* footer .contact {
-        margin-right: 6px;
-        width: 52%;
-    } */
     .footer-logo {
         width: 13%;
     }
@@ -359,7 +323,6 @@ footer .contact p:nth-child(3) {
         width: 80%;
     }
     .social-media {
-        /* border: 1px solid palevioletred; */
         margin-left: 3px;
         width: 45%;
     }
@@ -373,7 +336,6 @@ footer .contact p:nth-child(3) {
         margin-top: 5px;
     }
     footer .contact {
-        /* border: 1px solid red; */
         width: 80%;
         margin: auto;
         display: flex;
@@ -381,11 +343,6 @@ footer .contact p:nth-child(3) {
         align-items: center;
         justify-content: center;
     }
-    /* .social-media img {
-        text-align: center;
-        width: 70%;
-        margin: 3px;
-    } */
 }
 
 @media (max-width: 991px) and (min-width: 768px) {
@@ -402,6 +359,3 @@ footer .contact p:nth-child(3) {
         font-size: 1.4rem;
     }
 }
-
-
-/****************************************RESPONSIVE END****************************************/
